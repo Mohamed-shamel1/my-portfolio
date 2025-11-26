@@ -16,6 +16,7 @@ function SatelliteModel(props: any) {
   });
 
   return (
+    /* @ts-ignore */
     <Float 
       speed={3} 
       rotationIntensity={1} 
